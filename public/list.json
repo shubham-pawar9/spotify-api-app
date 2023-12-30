@@ -1,0 +1,235 @@
+[
+    {
+        "name": "Nazar Lag Jayegi",
+        "id": 1,
+        "cover" : "Nazar Lag Jayegi.png",
+        "type": "new",
+        "path": "Nazar Lag Jayegi.mp3"
+    },
+    {
+        "name": "Ram Siya Ram",
+        "id": 2,
+        "cover" : "Adipurush.png",
+        "type": "new",
+        "path": "Ram Siya Ram.mp3",
+        "album": "Adipurush"
+    },
+    {
+        "name": "Teri Jhuki Nazar",
+        "id": 3,
+        "cover" : "Teri Jhuki Nazar.png",
+        "type": "new",
+        "path": "Teri Jhuki Nazar.mp3"
+    },
+    {
+        "name": "Dil chura le o chand se chehre wale",
+        "id": 4,
+        "cover" : "Dil chura le o chand se chehre wale.png",
+        "type": "new",
+        "path": "Dil chura le o chand se chehre wale.mp3"
+    },
+    {
+        "name": "Aankh Maare O Ladka",
+        "id": 5,
+        "cover" : "Aankh Maare O Ladka.png",
+        "type": "new",
+        "path": "Aankh Maare O Ladka.mp3"
+    },
+    {
+        "name": "Bappa (Full Song) Banjo",
+        "id": 6,
+        "cover" : "Bappa (Full Song) Banjo.png",
+        "type": "new",
+        "path": "Bappa (Full Song) Banjo.mp3"
+    },
+    {
+        "name": "Jai Shri Ram",
+        "id": 7,
+        "cover" : "Adipurush.png",
+        "type": "new",
+        "path": "Jai Shri Ram.mp3",
+        "album": "Adipurush"
+    },
+    {
+        "name": "Mai Dekhu Teri Photo",
+        "id": 8,
+        "cover" : "Mai Dekhu Teri Photo.png",
+        "type": "new",
+        "path": "Mai Dekhu Teri Photo.mp3"
+    },
+    {
+        "name": "Mere Sohneya Kabir Singh",
+        "id": 9,
+        "cover" : "Mere Sohneya Kabir Singh.png",
+        "type": "new",
+        "path": "Mere Sohneya Kabir Singh.mp3"
+    },
+    {
+        "name": "Abrars Entry-Animal",
+        "id": 10,
+        "cover" : "Animal.png",
+        "type": "new",
+        "path": "Abrars Entry-Animal.mp3",
+        "album": "Animal"
+    },
+    {
+        "name": "Dil Hai Chhota Sa",
+        "id": 11,
+        "cover" : "Dil Hai Chhota Sa.png",
+        "type": "new",
+        "path": "Dil Hai Chhota Sa.mp3"
+    },
+    {
+        "name": "Heeriye",
+        "id": 12,
+        "cover" : "Heeriye.png",
+        "type": "new",
+        "path": "Heeriye.mp3"
+    },
+    {
+        "name": "Aararaari Raaro",
+        "id": 13,
+        "cover" : "Jawan.png",
+        "type": "new",
+        "path": "Aararaari Raaro.mp3",
+        "album": "Jawan"
+    },
+    {
+        "name": "Kabhi Shaam Dhale",
+        "id": 14,
+        "cover" : "Kabhi Shaam Dhale.png",
+        "type": "new",
+        "path": "Kabhi Shaam Dhale.mp3"
+    },
+    {
+        "name": "Tu Hai To Mujhe Phir Aur",
+        "id": 15,
+        "cover" : "Tu Hai To Mujhe Phir Aur.png",
+        "type": "new",
+        "path": "Tu Hai To Mujhe Phir Aur.mp3"
+    },
+    {
+        "name": "Guli Mata",
+        "id": 16,
+        "cover" : "Guli Mata.png",
+        "type": "new",
+        "path": "Guli Mata.mp3"
+    },
+    {
+        "name": "Saari Duniya Jalaa Denge Animal Mashup",
+        "id": 17,
+        "cover" : "Animal.png",
+        "type": "new",
+        "path": "Saari Duniya Jalaa Denge Animal Mashup.mp3",
+        "album": "Animal"
+    },
+    {
+        "name": "Khalasi",
+        "id": 18,
+        "cover" : "Khalasi.png",
+        "type": "new",
+        "path": "Khalasi.mp3"
+    },
+    {
+        "name": "Tere Hawaale",
+        "id": 19,
+        "cover" : "Tere Hawaale.png",
+        "type": "new",
+        "path": "Tere Hawaale.mp3"
+    },
+    {
+        "name": "Mann Jogiya",
+        "id": 20,
+        "cover" : "Mann Jogiya.png",
+        "type": "new",
+        "path": "Mann Jogiya.mp3"
+    },
+    {
+        "name": "Chaleya -Arabic",
+        "id": 21,
+        "cover" : "Jawan.png",
+        "type": "new",
+        "path": "Chaleya -Arabic.mp3",
+        "album": "Jawan"
+    },
+    {
+        "name": "Current Laga Re",
+        "id": 22,
+        "cover" : "Current Laga Re.png",
+        "type": "new",
+        "path": "Current Laga Re.mp3"
+    },
+    {
+        "name": "Huppa Huiya",
+        "id": 23,
+        "cover" : "Adipurush.png",
+        "type": "new",
+        "path": "Huppa Huiya.mp3",
+        "album": "Adipurush"
+    },
+    {
+        "name": "Kudi Meri",
+        "id": 24,
+        "cover" : "Kudi Meri.png",
+        "type": "new",
+        "path": "Kudi Meri.mp3"
+    },
+    {
+        "name": "Kya Say",
+        "id": 25,
+        "cover" : "Kya Say.png",
+        "type": "new",
+        "path": "Kya Say.mp3"
+    },
+    {
+        "name": "Satranga-Animal",
+        "id": 26,
+        "cover" : "Animal.png",
+        "type": "new",
+        "path": "Satranga-Animal.mp3",
+        "album": "Animal"
+    },
+    {
+        "name": "Malang Sajna",
+        "id": 27,
+        "cover" : "Malang Sajna.png",
+        "type": "new",
+        "path": "Malang Sajna.mp3"
+    },
+    {
+        "name": "Kise Hor Da",
+        "id": 28,
+        "cover" : "Kise Hor Da.png",
+        "type": "new",
+        "path": "Kise Hor Da.mp3"
+    },
+    {
+        "name": "Zinda Banda",
+        "id": 29,
+        "cover" : "Jawan.png",
+        "type": "new",
+        "path": "Zinda Banda.mp3",
+        "album": "Jawan"
+    },
+    {
+        "name": "Ishq Jaisa Kuch",
+        "id": 30,
+        "cover" : "Ishq Jaisa Kuch.png",
+        "type": "new",
+        "path": "Ishq Jaisa Kuch.mp3"
+    },
+    {
+        "name": "Jiye Toh Jiye Kaise 2.0",
+        "id": 31,
+        "cover" : "Jiye Toh Jiye Kaise 2.0.png",
+        "type": "new",
+        "path": "Jiye Toh Jiye Kaise 2.0.mp3"
+    },
+    {
+        "name": "Fakeeran",
+        "id": 32,
+        "cover" : "Fakeeran.png",
+        "type": "new",
+        "path": "Fakeeran.mp3"
+    }
+]

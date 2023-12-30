@@ -1,0 +1,52 @@
+{
+  "name": "spotify-api-app",
+  "version": "0.1.0",
+  "homepage": "https://shubham-pawar9.github.io/spotify-api-app",
+  "private": true,
+  "dependencies": {
+    "@react-three/drei": "^9.92.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "drei": "^2.2.21",
+    "music-metadata": "^7.14.0",
+    "music-metadata-browser": "^2.5.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-three-fiber": "^6.0.13",
+    "three": "^0.159.0",
+    "three-dracoloader": "^0.0.1",
+    "tween.js": "^16.6.0",
+    "use-sound": "^4.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/three": "^0.159.0",
+    "gh-pages": "^6.1.1"
+  }
+}
