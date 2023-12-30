@@ -155,12 +155,25 @@ const App = () => {
   };
 
   useEffect(() => {
-    if (trackSelect == "Tracks") {
-      fetchApi().then((res) => setPlayList(res.playlists.items));
-    } else {
-      fetchApi().then((res) => setmyApiData(res));
-    }
-  }, [trackSelect]);
+    const fetchAndSetData = async () => {
+      try {
+        let result;
+        if (trackSelect === "Tracks") {
+          result = await fetchApi();
+          setPlayList(result.playlists.items);
+        } else {
+          if (playListId) {
+            result = await fetchApi();
+            setmyApiData(result);
+          }
+        }
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchAndSetData();
+  }, [trackSelect, playListId]);
 
   return (
     <>
