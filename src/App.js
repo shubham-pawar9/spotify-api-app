@@ -23,13 +23,13 @@ const App = () => {
       let options;
       if (trackSelect == "Tracks") {
         url =
-          "https://spotify23.p.rapidapi.com/search/?q=all&type=playlists&offset=0&limit=100&numberOfTopResults=5";
+          "https://spotify81.p.rapidapi.com/search?q=all&type=playlists&offset=0&limit=100&numberOfTopResults=5";
         options = {
           method: "GET",
           headers: {
             "X-RapidAPI-Key":
-              "3c02695937mshb70e14edd6a887ep1d4b40jsn815127e0e2d4",
-            "X-RapidAPI-Host": "spotify23.p.rapidapi.com",
+              "f80a63e2eemshc9134677c430387p1dfa84jsnfe1274e0b1ea",
+            "X-RapidAPI-Host": "spotify81.p.rapidapi.com",
           },
         };
       } else {
@@ -38,8 +38,8 @@ const App = () => {
           method: "GET",
           headers: {
             "X-RapidAPI-Key":
-              "3c02695937mshb70e14edd6a887ep1d4b40jsn815127e0e2d4",
-            "X-RapidAPI-Host": "spotify23.p.rapidapi.com",
+              "f80a63e2eemshc9134677c430387p1dfa84jsnfe1274e0b1ea",
+            "X-RapidAPI-Host": "spotify81.p.rapidapi.com",
           },
         };
       }
@@ -161,17 +161,31 @@ const App = () => {
         if (trackSelect === "Tracks") {
           result = await fetchApi();
           setPlayList(result.playlists.items);
+          localStorage.setItem(
+            "playlistData",
+            JSON.stringify(result.playlists.items)
+          ); //add in local storage
         } else {
           if (playListId) {
             result = await fetchApi();
             setmyApiData(result);
+            localStorage.setItem("myApiData", JSON.stringify(result));
           }
         }
       } catch (error) {
         console.error("Error fetching data:", error);
       }
     };
+    // Check if data exists in local storage and set it if it does
+    const cachedPlaylistData = localStorage.getItem("playlistData");
+    if (cachedPlaylistData) {
+      setPlayList(JSON.parse(cachedPlaylistData));
+    }
 
+    const cachedMyApiData = localStorage.getItem("myApiData");
+    if (cachedMyApiData) {
+      setmyApiData(JSON.parse(cachedMyApiData));
+    }
     fetchAndSetData();
   }, [trackSelect, playListId]);
 
